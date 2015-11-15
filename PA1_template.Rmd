@@ -5,7 +5,7 @@ output:
     keep_md: true
 ---
 
-##Loading and preprocessing the data
+## Loading and preprocessing the data
 The data is a csv file and must be downloaded and unzipped to the working directory first.
 
 ```{r}

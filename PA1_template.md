@@ -1,6 +1,11 @@
-# Reproducible Research: Peer Assessment 1
+---
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
 
-##Loading and preprocessing the data
+## Loading and preprocessing the data
 The data is a csv file and must be downloaded and unzipped to the working directory first.
 
 
@@ -36,7 +41,7 @@ hist(
     breaks = 20 )
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-4-1.png) 
+![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png) 
 
 The mean of the total number of steps taken per day
 
@@ -81,7 +86,7 @@ plot(
     main = "Average daily activity pattern")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png) 
 
 Find the 5 minute interval, on average across all days which contains the maximum number of steps
 
@@ -154,7 +159,7 @@ hist(
     breaks = 20)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png) 
+![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png) 
 
 Calculate the mean of steps in the complete data set
 
@@ -211,7 +216,7 @@ qplot(
 ) + facet_wrap(~dayType, ncol = 1)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-17-1.png) 
+![plot of chunk unnamed-chunk-17](figure/unnamed-chunk-17-1.png) 
 
 There are differences between weekdays and weekend steps pattern. Mosf of the steps during weekdays are concentrated during the morning hours, with smaller peaks during the afternoon. Activity during weekends tends to start later and are more consistent throughout the day.
 
